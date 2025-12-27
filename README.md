@@ -1,12 +1,11 @@
-📄 Multilingual RAG-Based Question Answering (Hindi–Tamil)
-🔍 Project Overview
-
+**# 📄 Multilingual RAG-Based Question Answering (Hindi–Tamil)**
+## **🔍 Project Overview**
 This project implements a multilingual Question Answering (QA) system for Hindi and Tamil using the XLM-RoBERTa-base transformer model.
 The system is trained on Kaggle competition data consisting of context, question, and answer triples, where the answer is always a text span extracted from the given context.
 
 To support real-world document-based QA, the project integrates a Retrieval-Augmented Generation (RAG) pipeline that enables users to upload PDF documents, ask questions, and receive answers grounded strictly in the document content, with clear visualization of the source text.
 
-🎯 Problem Statement
+## **🎯 Problem Statement**
 
 Given:
 
@@ -20,7 +19,7 @@ the model learns to extract the correct answer from the context.
 
 To extend this to long documents (e.g., PDFs), RAG is applied to retrieve the most relevant text segments before performing extractive question answering.
 
-🧠 Key Features
+## **🧠 Key Features**
 
 - Multilingual QA (Hindi & Tamil)
 
@@ -38,7 +37,7 @@ To extend this to long documents (e.g., PDFs), RAG is applied to retrieve the mo
 
 - Kaggle competition–ready pipeline
 
-🏗️ System Architecture
+## **🏗️ System Architecture**
 
 PDF Upload
 
@@ -60,7 +59,7 @@ Answer Visualization
 
 Highlight the exact text used to answer the question
 
-📊 Dataset
+## **📊 Dataset**
 
 Source: Kaggle Competition Dataset
 
@@ -78,7 +77,7 @@ Task Type: Extractive Question Answering
 
 Data Modality: Text only
 
-🤖 Model Details
+## **🤖 Model Details**
 
 Base Model: xlm-roberta-base
 
@@ -90,7 +89,7 @@ Answer Type: Extractive (no text generation)
 
 The model predicts start and end positions of the answer within the retrieved context.
 
-🚀 Why RAG?
+## **🚀 Why RAG?**
 
 Although the model is extractive, RAG is used to:
 
@@ -104,7 +103,7 @@ Enable scalable document-based QA
 
 RAG retrieves the most relevant context before applying extractive QA.
 
-🧪 Evaluation
+## **🧪 Evaluation**
 
 Evaluated using Kaggle competition metrics
 
@@ -116,7 +115,8 @@ Context relevance
 
 Multilingual performance
 
-📂 Repository Structure
+## **📂 Repository Structure**
+
 ├── data/                 # Kaggle dataset and processed files
 ├── notebooks/            # Training and experiments
 ├── models/               # Fine-tuned XLM-RoBERTa checkpoints
@@ -124,7 +124,8 @@ Multilingual performance
 ├── README.md             # Documentation
 └── requirements.txt      # Dependencies
 
-🏷️ Keywords
+## **🏷️ Keywords**
+
 nlp
 question-answering
 rag
@@ -136,7 +137,7 @@ huggingface
 kaggle
 pdf-qa
 
-📌 Notes
+## **📌 Notes**
 
 Answers are always grounded in the source document
 
