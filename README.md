@@ -1,5 +1,6 @@
-📄 Multilingual RAG-Based Question Answering (Hindi–Tamil)
-🔍 Project Overview
+##📄 Multilingual RAG-Based Question Answering (Hindi–Tamil)
+
+#🔍 Project Overview
 
 This project implements a multilingual Question Answering (QA) system for Hindi and Tamil using the XLM-RoBERTa-base transformer model.
 The system is trained on Kaggle competition data consisting of context, question, and answer triples, where the answer is always a text span extracted from the given context.
