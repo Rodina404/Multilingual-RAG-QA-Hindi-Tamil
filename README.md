@@ -1,4 +1,4 @@
-##📄 Multilingual RAG-Based Question Answering (Hindi–Tamil)
+##Multilingual RAG-Based Question Answering (Hindi–Tamil)
 
 #🔍 Project Overview
 
