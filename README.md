@@ -119,11 +119,17 @@ Multilingual performance
 ## **📂 Repository Structure**
 
 ├── data/                 # Kaggle dataset and processed files
+
 ├── notebooks/            # Training and experiments
+
 ├── models/               # Fine-tuned XLM-RoBERTa checkpoints
+
 ├── inference/             # RAG + PDF QA pipeline
+
 ├── README.md             # Documentation
+
 └── requirements.txt      # Dependencies
+
 
 ## **🏷️ Keywords**
 
